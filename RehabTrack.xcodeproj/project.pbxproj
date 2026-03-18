@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		028904AA177132F30438BCFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F752C77994CBACBED6E801 /* ContentView.swift */; };
+		0552353309F4B442C1C90F4C /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F66D9DD1784F11AF72D29A4 /* Exercise.swift */; };
+		079A8E036607EE59B824FB01 /* RecommendationStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC1FF5C69D591FFC09B18B8 /* RecommendationStatus.swift */; };
+		0A907DCC5F2C63A49EE0BFC6 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25111107034C30AE2CE61A7 /* AuthViewModel.swift */; };
+		0BB155805A705B25EE36E8B0 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908E53B4C11691FC5BDA2048 /* Provider.swift */; };
+		0E39124B9F692D891533836F /* ProviderMessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D28FC53771CE5B89B6A6A3 /* ProviderMessagesView.swift */; };
+		19BFCBBC2DE42485AB646BA1 /* ProviderPatientDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF41E5FDF2F8ED330C3263CC /* ProviderPatientDetailView.swift */; };
+		1B434E35904954B1F20AE917 /* PatientDashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8826E4F6089C78673720EAC /* PatientDashboardViewModel.swift */; };
+		1DB665E9DA57129B837CF6E4 /* MetricCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF675F79164AAE04510741B /* MetricCardView.swift */; };
+		1F73527DC30DF576A9108004 /* ProviderExerciseAssignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF187F7856FE3116EC416467 /* ProviderExerciseAssignView.swift */; };
+		24692ECB58C9B3B3B664C7D5 /* ProviderExerciseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AB432A809947D602013AE0 /* ProviderExerciseViewModel.swift */; };
+		2536B0FD7EC033005A710D06 /* ProviderMessagesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410BAA55BD5C4401E4D43A3A /* ProviderMessagesViewModel.swift */; };
+		2D6405D8909A776E68197AE5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48033DC24C564A4D44080D6 /* Constants.swift */; };
+		34C89A37F56AB9B268E2985C /* EMGSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C3F1E212DCB3E5FD2A74C5 /* EMGSession.swift */; };
+		35FEEA71E60B344B17A119FF /* DeviceServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C431F336B6A58442E1092D /* DeviceServiceProtocol.swift */; };
+		3DBC4C1BA8C0CA1D12521ACC /* ProviderAIReviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A7232E13C73167BE7BE546 /* ProviderAIReviewViewModel.swift */; };
+		46FE1B69251CDEA70C408A08 /* PatientDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB16B9B4DFEFA5B45C0AC81 /* PatientDashboardView.swift */; };
+		4F6F361880FE6CEC21C6013A /* PatientMessagesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D60CD5A364EB5649841933 /* PatientMessagesViewModel.swift */; };
+		57479161844F6DD5C0D7F0D2 /* ExerciseStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317D981DCCF38EAFE0B7F922 /* ExerciseStatus.swift */; };
+		587CEDCBD9A492A94E3D0FFD /* MockDataGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A708A0C696204B4FCCFE230 /* MockDataGenerator.swift */; };
+		61AEE4CF33A95460735AA8F6 /* ProviderPatientListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F53BF012BAB4B8D76AD6B48 /* ProviderPatientListViewModel.swift */; };
+		62F01D0488E991E1F5462184 /* MockAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A7427B0A227245F8AF90F3 /* MockAIService.swift */; };
+		656310529B38DF3BF1DDEDD0 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63932514670B942EB0350DD8 /* Message.swift */; };
+		65E6B80F5BD698CC9085E686 /* UserRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169F9A14B60BA73C271CA33B /* UserRole.swift */; };
+		69B16F535E10A86C23D3FC5B /* ProviderPatientListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A129699A7D053CBFBBB509 /* ProviderPatientListView.swift */; };
+		6B927694FFEE78680F1FA308 /* PatientProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18569CF03DCE8EB289C6077 /* PatientProgressView.swift */; };
+		6BDD1D3588730339034D15F9 /* PatientExerciseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6EC361C14BC45FA9341985 /* PatientExerciseListView.swift */; };
+		70148F4D0EF9BD5210A7213D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E007A19EBEA13F974A065B18 /* LoginView.swift */; };
+		7630297763A03F536AA1CFCD /* ProviderAIReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF54A7EE1016E4459C481B19 /* ProviderAIReviewView.swift */; };
+		7B63D4179D90CC9EEB53BA29 /* MuscleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF5457015444475BAED27E /* MuscleGroup.swift */; };
+		7BA0C530C1041300B51F88EE /* AIRecommendation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D194ED571FC7F0B12197CC1D /* AIRecommendation.swift */; };
+		84118995727F1E97BDB27F7F /* MockDeviceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9830CDCAE6E5352A04EAB712 /* MockDeviceService.swift */; };
+		873E016D960ADB7A0E6E5A8E /* ProviderPatientDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D955B37EE52442442133FAC /* ProviderPatientDetailViewModel.swift */; };
+		93E41BCFFE727A91DF0D3CE6 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DB0D6C9961044144D04070 /* Patient.swift */; };
+		98FEFC03DF48D7C9CF6DB3C9 /* PatientExerciseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D616BF58337DE0D18F340A79 /* PatientExerciseViewModel.swift */; };
+		9A1331B45DBD777EB40293A4 /* PatientTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46422912F765CCB3F622DE6B /* PatientTabView.swift */; };
+		A1AFC0EC5CCEC916C61FF9CF /* PatientAIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D89C38627FBB7D57F5C0EC /* PatientAIViewModel.swift */; };
+		B016D30229945372FDAE0205 /* ExerciseRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE80B6F61311A903242A3C9 /* ExerciseRowView.swift */; };
+		B1483C08CEE83815E33AD7FE /* EMGReading.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4977C46C6ABB752EEB243B4 /* EMGReading.swift */; };
+		B3575DC25573E9FD8966A8F6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB01CCD52940B416A02570C /* User.swift */; };
+		B51A0A5E8A72A56C7B0E9E18 /* PatientAIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A1DB226533F52C94C55C31 /* PatientAIView.swift */; };
+		B97B3641CD1686B756183E7E /* PatientProgressViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAE5DA5A15F9DA0CD69A244 /* PatientProgressViewModel.swift */; };
+		BD78559E88B20D70004E25F9 /* ProviderTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83525D26D2555C983D5FC05C /* ProviderTabView.swift */; };
+		BE584FA7602EE3EFE282DE93 /* PatientExerciseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F047A8C490514CBC689704E /* PatientExerciseDetailView.swift */; };
+		C14C4F57506495DCBC7A6CEB /* PatientMessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C2A8D30E950A9378F0A313 /* PatientMessagesView.swift */; };
+		CDF29D296824D318724377C4 /* MessageBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A449CB905403E7A33E86B5 /* MessageBubbleView.swift */; };
+		CE4581820B6DB21D1004918E /* AIServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A27D8CFD5F203781B2B21B3 /* AIServiceProtocol.swift */; };
+		CEAED654ED33EC4525358300 /* EMGChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59CA819EA2B087123218828 /* EMGChartView.swift */; };
+		D44708273A0230FD28CC7A90 /* RehabTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8673E276CA2733CDE312FE /* RehabTrackApp.swift */; };
+		DFC814661D01CA6F66102B30 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12B76FB9CE9D19696E90C32 /* DataManager.swift */; };
+		F778E26B80D9EC68598C19ED /* DateFormatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D71F14B965F5509AF3A236E /* DateFormatters.swift */; };
+		FAE0B652ED92353012B89949 /* ExerciseCompletion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7321319B5C0F4DB6084D0540 /* ExerciseCompletion.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09A7232E13C73167BE7BE546 /* ProviderAIReviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderAIReviewViewModel.swift; sourceTree = "<group>"; };
+		0A708A0C696204B4FCCFE230 /* MockDataGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataGenerator.swift; sourceTree = "<group>"; };
+		0BE80B6F61311A903242A3C9 /* ExerciseRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseRowView.swift; sourceTree = "<group>"; };
+		14A129699A7D053CBFBBB509 /* ProviderPatientListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderPatientListView.swift; sourceTree = "<group>"; };
+		169F9A14B60BA73C271CA33B /* UserRole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRole.swift; sourceTree = "<group>"; };
+		317D981DCCF38EAFE0B7F922 /* ExerciseStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseStatus.swift; sourceTree = "<group>"; };
+		32A449CB905403E7A33E86B5 /* MessageBubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubbleView.swift; sourceTree = "<group>"; };
+		3BB16B9B4DFEFA5B45C0AC81 /* PatientDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientDashboardView.swift; sourceTree = "<group>"; };
+		3C450168D146F860DE860D6E /* RehabTrack.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = RehabTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		410BAA55BD5C4401E4D43A3A /* ProviderMessagesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderMessagesViewModel.swift; sourceTree = "<group>"; };
+		46422912F765CCB3F622DE6B /* PatientTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientTabView.swift; sourceTree = "<group>"; };
+		46AB432A809947D602013AE0 /* ProviderExerciseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderExerciseViewModel.swift; sourceTree = "<group>"; };
+		4F66D9DD1784F11AF72D29A4 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		53A1DB226533F52C94C55C31 /* PatientAIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientAIView.swift; sourceTree = "<group>"; };
+		60DB0D6C9961044144D04070 /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		63932514670B942EB0350DD8 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		6A27D8CFD5F203781B2B21B3 /* AIServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIServiceProtocol.swift; sourceTree = "<group>"; };
+		70D60CD5A364EB5649841933 /* PatientMessagesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientMessagesViewModel.swift; sourceTree = "<group>"; };
+		7321319B5C0F4DB6084D0540 /* ExerciseCompletion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseCompletion.swift; sourceTree = "<group>"; };
+		7D955B37EE52442442133FAC /* ProviderPatientDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderPatientDetailViewModel.swift; sourceTree = "<group>"; };
+		7E6EC361C14BC45FA9341985 /* PatientExerciseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientExerciseListView.swift; sourceTree = "<group>"; };
+		83525D26D2555C983D5FC05C /* ProviderTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderTabView.swift; sourceTree = "<group>"; };
+		8D71F14B965F5509AF3A236E /* DateFormatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatters.swift; sourceTree = "<group>"; };
+		8D8673E276CA2733CDE312FE /* RehabTrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RehabTrackApp.swift; sourceTree = "<group>"; };
+		8F047A8C490514CBC689704E /* PatientExerciseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientExerciseDetailView.swift; sourceTree = "<group>"; };
+		8F53BF012BAB4B8D76AD6B48 /* ProviderPatientListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderPatientListViewModel.swift; sourceTree = "<group>"; };
+		908E53B4C11691FC5BDA2048 /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		9830CDCAE6E5352A04EAB712 /* MockDeviceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDeviceService.swift; sourceTree = "<group>"; };
+		98D89C38627FBB7D57F5C0EC /* PatientAIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientAIViewModel.swift; sourceTree = "<group>"; };
+		99C3F1E212DCB3E5FD2A74C5 /* EMGSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMGSession.swift; sourceTree = "<group>"; };
+		9BC1FF5C69D591FFC09B18B8 /* RecommendationStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationStatus.swift; sourceTree = "<group>"; };
+		9FB01CCD52940B416A02570C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A2A7427B0A227245F8AF90F3 /* MockAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAIService.swift; sourceTree = "<group>"; };
+		A4977C46C6ABB752EEB243B4 /* EMGReading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMGReading.swift; sourceTree = "<group>"; };
+		A59CA819EA2B087123218828 /* EMGChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMGChartView.swift; sourceTree = "<group>"; };
+		AF41E5FDF2F8ED330C3263CC /* ProviderPatientDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderPatientDetailView.swift; sourceTree = "<group>"; };
+		C12B76FB9CE9D19696E90C32 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		C18569CF03DCE8EB289C6077 /* PatientProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientProgressView.swift; sourceTree = "<group>"; };
+		C1BF5457015444475BAED27E /* MuscleGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleGroup.swift; sourceTree = "<group>"; };
+		C25111107034C30AE2CE61A7 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		C8826E4F6089C78673720EAC /* PatientDashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientDashboardViewModel.swift; sourceTree = "<group>"; };
+		D194ED571FC7F0B12197CC1D /* AIRecommendation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIRecommendation.swift; sourceTree = "<group>"; };
+		D616BF58337DE0D18F340A79 /* PatientExerciseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientExerciseViewModel.swift; sourceTree = "<group>"; };
+		DF54A7EE1016E4459C481B19 /* ProviderAIReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderAIReviewView.swift; sourceTree = "<group>"; };
+		E007A19EBEA13F974A065B18 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E2C431F336B6A58442E1092D /* DeviceServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceServiceProtocol.swift; sourceTree = "<group>"; };
+		E3D28FC53771CE5B89B6A6A3 /* ProviderMessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderMessagesView.swift; sourceTree = "<group>"; };
+		E9F752C77994CBACBED6E801 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EAF675F79164AAE04510741B /* MetricCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricCardView.swift; sourceTree = "<group>"; };
+		EDAE5DA5A15F9DA0CD69A244 /* PatientProgressViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientProgressViewModel.swift; sourceTree = "<group>"; };
+		F48033DC24C564A4D44080D6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F9C2A8D30E950A9378F0A313 /* PatientMessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientMessagesView.swift; sourceTree = "<group>"; };
+		FF187F7856FE3116EC416467 /* ProviderExerciseAssignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderExerciseAssignView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		11361183CC4CC706DA0D47B9 /* AIService */ = {
+			isa = PBXGroup;
+			children = (
+				6A27D8CFD5F203781B2B21B3 /* AIServiceProtocol.swift */,
+				A2A7427B0A227245F8AF90F3 /* MockAIService.swift */,
+			);
+			path = AIService;
+			sourceTree = "<group>";
+		};
+		1EE39659504ADC02E3E062B9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AAF507BDBA7134D8DE651A6F /* Auth */,
+				518C4D0075AD1C05594C4662 /* Patient */,
+				41A38A4BB5EEF7597562DDFA /* Provider */,
+				F821BA566E88FD3B6E6D3252 /* Shared */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		41A38A4BB5EEF7597562DDFA /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				DF54A7EE1016E4459C481B19 /* ProviderAIReviewView.swift */,
+				FF187F7856FE3116EC416467 /* ProviderExerciseAssignView.swift */,
+				E3D28FC53771CE5B89B6A6A3 /* ProviderMessagesView.swift */,
+				AF41E5FDF2F8ED330C3263CC /* ProviderPatientDetailView.swift */,
+				14A129699A7D053CBFBBB509 /* ProviderPatientListView.swift */,
+				83525D26D2555C983D5FC05C /* ProviderTabView.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		4A38980E8E0ECC380D2FC4A3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D194ED571FC7F0B12197CC1D /* AIRecommendation.swift */,
+				A4977C46C6ABB752EEB243B4 /* EMGReading.swift */,
+				99C3F1E212DCB3E5FD2A74C5 /* EMGSession.swift */,
+				4F66D9DD1784F11AF72D29A4 /* Exercise.swift */,
+				7321319B5C0F4DB6084D0540 /* ExerciseCompletion.swift */,
+				63932514670B942EB0350DD8 /* Message.swift */,
+				60DB0D6C9961044144D04070 /* Patient.swift */,
+				908E53B4C11691FC5BDA2048 /* Provider.swift */,
+				9FB01CCD52940B416A02570C /* User.swift */,
+				A93CFF6039AD86E9E88AA9A9 /* Enums */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4CFA6C06054C7FE4ABBBA7B5 /* RehabTrack */ = {
+			isa = PBXGroup;
+			children = (
+				E9F752C77994CBACBED6E801 /* ContentView.swift */,
+				8D8673E276CA2733CDE312FE /* RehabTrackApp.swift */,
+				4A38980E8E0ECC380D2FC4A3 /* Models */,
+				96800304D8D56163EDEA85B0 /* Services */,
+				AADCE7B791086564C2AE46E7 /* Utilities */,
+				A133EC88466AD46A89588426 /* ViewModels */,
+				1EE39659504ADC02E3E062B9 /* Views */,
+			);
+			path = RehabTrack;
+			sourceTree = "<group>";
+		};
+		518C4D0075AD1C05594C4662 /* Patient */ = {
+			isa = PBXGroup;
+			children = (
+				53A1DB226533F52C94C55C31 /* PatientAIView.swift */,
+				3BB16B9B4DFEFA5B45C0AC81 /* PatientDashboardView.swift */,
+				8F047A8C490514CBC689704E /* PatientExerciseDetailView.swift */,
+				7E6EC361C14BC45FA9341985 /* PatientExerciseListView.swift */,
+				F9C2A8D30E950A9378F0A313 /* PatientMessagesView.swift */,
+				C18569CF03DCE8EB289C6077 /* PatientProgressView.swift */,
+				46422912F765CCB3F622DE6B /* PatientTabView.swift */,
+			);
+			path = Patient;
+			sourceTree = "<group>";
+		};
+		5ACC68F1C221386F48BC3800 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				09A7232E13C73167BE7BE546 /* ProviderAIReviewViewModel.swift */,
+				46AB432A809947D602013AE0 /* ProviderExerciseViewModel.swift */,
+				410BAA55BD5C4401E4D43A3A /* ProviderMessagesViewModel.swift */,
+				7D955B37EE52442442133FAC /* ProviderPatientDetailViewModel.swift */,
+				8F53BF012BAB4B8D76AD6B48 /* ProviderPatientListViewModel.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		726AA9F77A2E3830418D16A3 /* Patient */ = {
+			isa = PBXGroup;
+			children = (
+				98D89C38627FBB7D57F5C0EC /* PatientAIViewModel.swift */,
+				C8826E4F6089C78673720EAC /* PatientDashboardViewModel.swift */,
+				D616BF58337DE0D18F340A79 /* PatientExerciseViewModel.swift */,
+				70D60CD5A364EB5649841933 /* PatientMessagesViewModel.swift */,
+				EDAE5DA5A15F9DA0CD69A244 /* PatientProgressViewModel.swift */,
+			);
+			path = Patient;
+			sourceTree = "<group>";
+		};
+		73F082F51F68E19842CA1DF9 = {
+			isa = PBXGroup;
+			children = (
+				4CFA6C06054C7FE4ABBBA7B5 /* RehabTrack */,
+				9C2AFE08415453CB76E690F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E0A72B8767E780CE07340FF /* DeviceService */ = {
+			isa = PBXGroup;
+			children = (
+				E2C431F336B6A58442E1092D /* DeviceServiceProtocol.swift */,
+				9830CDCAE6E5352A04EAB712 /* MockDeviceService.swift */,
+			);
+			path = DeviceService;
+			sourceTree = "<group>";
+		};
+		96800304D8D56163EDEA85B0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				11361183CC4CC706DA0D47B9 /* AIService */,
+				D3C9BF01FDC42F416603437F /* DataManager */,
+				7E0A72B8767E780CE07340FF /* DeviceService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9C2AFE08415453CB76E690F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C450168D146F860DE860D6E /* RehabTrack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A133EC88466AD46A89588426 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C25111107034C30AE2CE61A7 /* AuthViewModel.swift */,
+				726AA9F77A2E3830418D16A3 /* Patient */,
+				5ACC68F1C221386F48BC3800 /* Provider */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A93CFF6039AD86E9E88AA9A9 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				317D981DCCF38EAFE0B7F922 /* ExerciseStatus.swift */,
+				C1BF5457015444475BAED27E /* MuscleGroup.swift */,
+				9BC1FF5C69D591FFC09B18B8 /* RecommendationStatus.swift */,
+				169F9A14B60BA73C271CA33B /* UserRole.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		AADCE7B791086564C2AE46E7 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F48033DC24C564A4D44080D6 /* Constants.swift */,
+				8D71F14B965F5509AF3A236E /* DateFormatters.swift */,
+				0A708A0C696204B4FCCFE230 /* MockDataGenerator.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		AAF507BDBA7134D8DE651A6F /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				E007A19EBEA13F974A065B18 /* LoginView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		D3C9BF01FDC42F416603437F /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				C12B76FB9CE9D19696E90C32 /* DataManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		F821BA566E88FD3B6E6D3252 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A59CA819EA2B087123218828 /* EMGChartView.swift */,
+				0BE80B6F61311A903242A3C9 /* ExerciseRowView.swift */,
+				32A449CB905403E7A33E86B5 /* MessageBubbleView.swift */,
+				EAF675F79164AAE04510741B /* MetricCardView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F282EB32DB763BFAE5CDDED /* RehabTrack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6422ECB67B3D1E8E52B54B0D /* Build configuration list for PBXNativeTarget "RehabTrack" */;
+			buildPhases = (
+				66D83407ED0102C10AFB6A51 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RehabTrack;
+			packageProductDependencies = (
+			);
+			productName = RehabTrack;
+			productReference = 3C450168D146F860DE860D6E /* RehabTrack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F38FF1BBEE27D9DA200ED664 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 8B28A7FC1547EFD7EBA525A9 /* Build configuration list for PBXProject "RehabTrack" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 73F082F51F68E19842CA1DF9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9C2AFE08415453CB76E690F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F282EB32DB763BFAE5CDDED /* RehabTrack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66D83407ED0102C10AFB6A51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BA0C530C1041300B51F88EE /* AIRecommendation.swift in Sources */,
+				CE4581820B6DB21D1004918E /* AIServiceProtocol.swift in Sources */,
+				0A907DCC5F2C63A49EE0BFC6 /* AuthViewModel.swift in Sources */,
+				2D6405D8909A776E68197AE5 /* Constants.swift in Sources */,
+				028904AA177132F30438BCFB /* ContentView.swift in Sources */,
+				DFC814661D01CA6F66102B30 /* DataManager.swift in Sources */,
+				F778E26B80D9EC68598C19ED /* DateFormatters.swift in Sources */,
+				35FEEA71E60B344B17A119FF /* DeviceServiceProtocol.swift in Sources */,
+				CEAED654ED33EC4525358300 /* EMGChartView.swift in Sources */,
+				B1483C08CEE83815E33AD7FE /* EMGReading.swift in Sources */,
+				34C89A37F56AB9B268E2985C /* EMGSession.swift in Sources */,
+				0552353309F4B442C1C90F4C /* Exercise.swift in Sources */,
+				FAE0B652ED92353012B89949 /* ExerciseCompletion.swift in Sources */,
+				B016D30229945372FDAE0205 /* ExerciseRowView.swift in Sources */,
+				57479161844F6DD5C0D7F0D2 /* ExerciseStatus.swift in Sources */,
+				70148F4D0EF9BD5210A7213D /* LoginView.swift in Sources */,
+				656310529B38DF3BF1DDEDD0 /* Message.swift in Sources */,
+				CDF29D296824D318724377C4 /* MessageBubbleView.swift in Sources */,
+				1DB665E9DA57129B837CF6E4 /* MetricCardView.swift in Sources */,
+				62F01D0488E991E1F5462184 /* MockAIService.swift in Sources */,
+				587CEDCBD9A492A94E3D0FFD /* MockDataGenerator.swift in Sources */,
+				84118995727F1E97BDB27F7F /* MockDeviceService.swift in Sources */,
+				7B63D4179D90CC9EEB53BA29 /* MuscleGroup.swift in Sources */,
+				93E41BCFFE727A91DF0D3CE6 /* Patient.swift in Sources */,
+				B51A0A5E8A72A56C7B0E9E18 /* PatientAIView.swift in Sources */,
+				A1AFC0EC5CCEC916C61FF9CF /* PatientAIViewModel.swift in Sources */,
+				46FE1B69251CDEA70C408A08 /* PatientDashboardView.swift in Sources */,
+				1B434E35904954B1F20AE917 /* PatientDashboardViewModel.swift in Sources */,
+				BE584FA7602EE3EFE282DE93 /* PatientExerciseDetailView.swift in Sources */,
+				6BDD1D3588730339034D15F9 /* PatientExerciseListView.swift in Sources */,
+				98FEFC03DF48D7C9CF6DB3C9 /* PatientExerciseViewModel.swift in Sources */,
+				C14C4F57506495DCBC7A6CEB /* PatientMessagesView.swift in Sources */,
+				4F6F361880FE6CEC21C6013A /* PatientMessagesViewModel.swift in Sources */,
+				6B927694FFEE78680F1FA308 /* PatientProgressView.swift in Sources */,
+				B97B3641CD1686B756183E7E /* PatientProgressViewModel.swift in Sources */,
+				9A1331B45DBD777EB40293A4 /* PatientTabView.swift in Sources */,
+				0BB155805A705B25EE36E8B0 /* Provider.swift in Sources */,
+				7630297763A03F536AA1CFCD /* ProviderAIReviewView.swift in Sources */,
+				3DBC4C1BA8C0CA1D12521ACC /* ProviderAIReviewViewModel.swift in Sources */,
+				1F73527DC30DF576A9108004 /* ProviderExerciseAssignView.swift in Sources */,
+				24692ECB58C9B3B3B664C7D5 /* ProviderExerciseViewModel.swift in Sources */,
+				0E39124B9F692D891533836F /* ProviderMessagesView.swift in Sources */,
+				2536B0FD7EC033005A710D06 /* ProviderMessagesViewModel.swift in Sources */,
+				19BFCBBC2DE42485AB646BA1 /* ProviderPatientDetailView.swift in Sources */,
+				873E016D960ADB7A0E6E5A8E /* ProviderPatientDetailViewModel.swift in Sources */,
+				69B16F535E10A86C23D3FC5B /* ProviderPatientListView.swift in Sources */,
+				61AEE4CF33A95460735AA8F6 /* ProviderPatientListViewModel.swift in Sources */,
+				BD78559E88B20D70004E25F9 /* ProviderTabView.swift in Sources */,
+				079A8E036607EE59B824FB01 /* RecommendationStatus.swift in Sources */,
+				D44708273A0230FD28CC7A90 /* RehabTrackApp.swift in Sources */,
+				B3575DC25573E9FD8966A8F6 /* User.swift in Sources */,
+				65E6B80F5BD698CC9085E686 /* UserRole.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		59AF6A83A91DAE0864190416 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rehabtrack.app;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E7B03AD1FCB45ACA2A9615E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rehabtrack.app;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CA0B8EDB3D1661B3EF89230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FAC4BE978A563E0E5B9C051B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6422ECB67B3D1E8E52B54B0D /* Build configuration list for PBXNativeTarget "RehabTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E7B03AD1FCB45ACA2A9615E /* Debug */,
+				59AF6A83A91DAE0864190416 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8B28A7FC1547EFD7EBA525A9 /* Build configuration list for PBXProject "RehabTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC4BE978A563E0E5B9C051B /* Debug */,
+				7CA0B8EDB3D1661B3EF89230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F38FF1BBEE27D9DA200ED664 /* Project object */;
+}
