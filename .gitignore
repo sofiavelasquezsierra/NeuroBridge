@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+# API keys — never commit
+RehabTrack/Services/AIService/APIConfiguration.swift

@@ -5,6 +5,9 @@ struct ProviderPatientDetailView: View {
     @Environment(DataManager.self) private var dataManager
     @State private var viewModel: ProviderPatientDetailViewModel?
     @State private var showingAssignSheet = false
+    @State private var isGeneratingAI = false
+    @State private var showingAIError = false
+    @State private var aiErrorMessage = ""
 
     var body: some View {
         Group {
@@ -113,6 +116,44 @@ struct ProviderPatientDetailView: View {
             }
         }
         .navigationTitle(patient.user.name)
+        .toolbar {
+            ToolbarItem(placement: .primaryAction) {
+                Button {
+                    Task {
+                        isGeneratingAI = true
+                        defer { isGeneratingAI = false }
+
+                        let sessions = dataManager.fetchSessions(for: patient)
+                        let service: any AIService = APIConfiguration.anthropicAPIKey.isEmpty
+                            ? MockAIService()
+                            : ClaudeAIService(apiKey: APIConfiguration.anthropicAPIKey)
+
+                        do {
+                            let recommendation = try await service.generateRecommendations(
+                                for: patient,
+                                recentSessions: sessions
+                            )
+                            dataManager.saveRecommendation(recommendation)
+                        } catch {
+                            aiErrorMessage = error.localizedDescription
+                            showingAIError = true
+                        }
+                    }
+                } label: {
+                    if isGeneratingAI {
+                        ProgressView()
+                    } else {
+                        Label("Generate AI", systemImage: "brain")
+                    }
+                }
+                .disabled(isGeneratingAI)
+            }
+        }
+        .alert("AI Recommendation Error", isPresented: $showingAIError) {
+            Button("OK") { }
+        } message: {
+            Text(aiErrorMessage)
+        }
         .sheet(isPresented: $showingAssignSheet) {
             ProviderExerciseAssignView(patient: patient)
         }

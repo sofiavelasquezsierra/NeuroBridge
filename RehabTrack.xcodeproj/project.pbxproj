@@ -56,6 +56,8 @@
 		CE4581820B6DB21D1004918E /* AIServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A27D8CFD5F203781B2B21B3 /* AIServiceProtocol.swift */; };
 		CEAED654ED33EC4525358300 /* EMGChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59CA819EA2B087123218828 /* EMGChartView.swift */; };
 		D44708273A0230FD28CC7A90 /* RehabTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8673E276CA2733CDE312FE /* RehabTrackApp.swift */; };
+		D589B2B62F81A418004EB36C /* APIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D589B2B42F81A418004EB36C /* APIConfiguration.swift */; };
+		D589B2B72F81A418004EB36C /* ClaudeAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D589B2B52F81A418004EB36C /* ClaudeAIService.swift */; };
 		DFC814661D01CA6F66102B30 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12B76FB9CE9D19696E90C32 /* DataManager.swift */; };
 		F778E26B80D9EC68598C19ED /* DateFormatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D71F14B965F5509AF3A236E /* DateFormatters.swift */; };
 		FAE0B652ED92353012B89949 /* ExerciseCompletion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7321319B5C0F4DB6084D0540 /* ExerciseCompletion.swift */; };
@@ -104,6 +106,8 @@
 		C25111107034C30AE2CE61A7 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		C8826E4F6089C78673720EAC /* PatientDashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientDashboardViewModel.swift; sourceTree = "<group>"; };
 		D194ED571FC7F0B12197CC1D /* AIRecommendation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIRecommendation.swift; sourceTree = "<group>"; };
+		D589B2B42F81A418004EB36C /* APIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfiguration.swift; sourceTree = "<group>"; };
+		D589B2B52F81A418004EB36C /* ClaudeAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeAIService.swift; sourceTree = "<group>"; };
 		D616BF58337DE0D18F340A79 /* PatientExerciseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientExerciseViewModel.swift; sourceTree = "<group>"; };
 		DF54A7EE1016E4459C481B19 /* ProviderAIReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderAIReviewView.swift; sourceTree = "<group>"; };
 		E007A19EBEA13F974A065B18 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -121,6 +125,8 @@
 		11361183CC4CC706DA0D47B9 /* AIService */ = {
 			isa = PBXGroup;
 			children = (
+				D589B2B42F81A418004EB36C /* APIConfiguration.swift */,
+				D589B2B52F81A418004EB36C /* ClaudeAIService.swift */,
 				6A27D8CFD5F203781B2B21B3 /* AIServiceProtocol.swift */,
 				A2A7427B0A227245F8AF90F3 /* MockAIService.swift */,
 			);
@@ -341,8 +347,6 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1600;
-				TargetAttributes = {
-				};
 			};
 			buildConfigurationList = 8B28A7FC1547EFD7EBA525A9 /* Build configuration list for PBXProject "RehabTrack" */;
 			developmentRegion = en;
@@ -409,6 +413,8 @@
 				3DBC4C1BA8C0CA1D12521ACC /* ProviderAIReviewViewModel.swift in Sources */,
 				1F73527DC30DF576A9108004 /* ProviderExerciseAssignView.swift in Sources */,
 				24692ECB58C9B3B3B664C7D5 /* ProviderExerciseViewModel.swift in Sources */,
+				D589B2B62F81A418004EB36C /* APIConfiguration.swift in Sources */,
+				D589B2B72F81A418004EB36C /* ClaudeAIService.swift in Sources */,
 				0E39124B9F692D891533836F /* ProviderMessagesView.swift in Sources */,
 				2536B0FD7EC033005A710D06 /* ProviderMessagesViewModel.swift in Sources */,
 				19BFCBBC2DE42485AB646BA1 /* ProviderPatientDetailView.swift in Sources */,

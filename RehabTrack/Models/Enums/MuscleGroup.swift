@@ -34,4 +34,16 @@ enum MuscleGroup: String, Codable, CaseIterable, Identifiable {
         case .wristExtensors: return "hand.point.up.left"
         }
     }
+
+    var antagonist: MuscleGroup? {
+        switch self {
+        case .biceps: return .triceps
+        case .triceps: return .biceps
+        case .forearmFlexors: return .forearmExtensors
+        case .forearmExtensors: return .forearmFlexors
+        case .wristFlexors: return .wristExtensors
+        case .wristExtensors: return .wristFlexors
+        case .deltoid: return nil
+        }
+    }
 }
